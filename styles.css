@@ -1,17 +1,28 @@
-.hero-background-img:after {
-    content: "";
-    position: absolute;
+
+.jumbotron {
+    background-color: black;
     background-image: url("https://media3.giphy.com/media/gfW7chQvIE2Va/giphy.gif");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    background-size: 100%;
+    background-position-y: -130px;
+    height: 150px;
     z-index: -1;
-    opacity: 0.5;
   }
-.jumbotron {
-    background-image: url("https://media3.giphy.com/media/gfW7chQvIE2Va/giphy.gif");
-  }
+h1 {
+    color: white;
+}
+h3 {
+    font-size: 200%;
+}
+p {
+    font-size: 150%
+}
+img {
+    width: 100%;
+}
+.smaller-img {
+    width: 50%;
+}
+/* .container {
+    background-color: blanchedalmond;
+} */
