@@ -1,5 +1,57 @@
-{% extends 'base.html' %}
+<!doctype html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>RanchoStop</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://bootswatch.com/4/lux/bootstrap.min.css'>
+</head>
+<body>
+    <!-- {% include 'partials/navbar.html' %} -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="https://angelinaolmedo7.github.io/RanchoStopUpdated/">RanchoStop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/hatchery">Hatchery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/sampleRancho">Sample Rancho</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class='container'>
+        <p>test</p>
+    </div>
 
-{% block body %}
-    <p>test</p>
-{% endblock %}
+    <!-- Footer -->
+    <footer class='page-footer font-small blue pt-4'>
+        <div class='container-fluid text-center'>
+             <div class='row'>
+             <hr class='clearfix w-100 d-md-none pb-3'>
+             <div class='col-md-6 mb-md-0 mb-3'>
+                 <h5 class='text-uppercase'>Links</h5>
+                 <ul class='list-unstyled'>
+                     <li><a href='https://github.com/angelinaolmedo7/RanchoStopUpdated'>Github Repo</a></li>
+                     <li><a href='https://github.com/angelinaolmedo7/RanchoStopUpdated'>The Original RanchoStop</a></li>
+                     <li><a href='https://www.makeschool.com'>Make School</a></li>
+                 </ul>
+             </div>
+             </div>
+        </div>
+        <div class='footer-copyright text-center py-3'>© 2019 Copyright: Angelina Olmedo
+        </div>
+    </footer>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+</body>
+</html>
